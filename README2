@@ -1,0 +1,47 @@
+# Programa Interactivo en JavaScript
+
+Este programa interactivo en JavaScript solicita al usuario información personal y sobre su interés en lenguajes de programación. Dependiendo de las respuestas del usuario, el programa muestra diferentes mensajes.
+
+## Descripción
+
+El programa realiza las siguientes acciones:
+
+1. Solicita al usuario su nombre, edad y el lenguaje de programación que está estudiando.
+2. Muestra un mensaje personalizado con la información proporcionada.
+3. Pregunta al usuario si le gusta estudiar el lenguaje de programación.
+4. Dependiendo de la respuesta, muestra un mensaje de motivación o pregunta si ha intentado aprender otros lenguajes.
+5. Si el usuario ha intentado aprender otros lenguajes, solicita el nombre de otro lenguaje y muestra un mensaje adicional.
+
+## Estructura del Código
+
+El código utiliza las funciones `prompt` y `alert` para interactuar con el usuario y la estructura condicional `if` para evaluar las respuestas.
+
+```javascript
+// Solicitar información al usuario
+let nombre = prompt("¿Cuál es tu nombre?");
+let edad = prompt("¿Cuántos años tienes?");
+let lenguaje = prompt("¿Qué lenguaje de programación estás estudiando?");
+
+// Mostrar el mensaje inicial
+alert(`Hola ${nombre}, tienes ${edad} años y ya estás aprendiendo ${lenguaje}!`);
+
+// Preguntar si le gusta estudiar el lenguaje
+let respuesta = prompt(`¿Te gusta estudiar ${lenguaje}? Responde con el número 1 para SÍ o 2 para NO.`);
+
+// Evaluar la respuesta y mostrar el mensaje correspondiente
+if (respuesta == 1) {
+    alert("¡Muy bien! Sigue estudiando y tendrás mucho éxito.");
+} else if (respuesta == 2) {
+    let intentoOtrosLenguajes = prompt("Oh, qué pena... ¿Ya intentaste aprender otros lenguajes? Responde con el número 1 para SÍ o 2 para NO.");
+    
+    if (intentoOtrosLenguajes == 1) {
+        let otroLenguaje = prompt("¿Cuál otro lenguaje has intentado aprender?");
+        alert(`¡Genial! Es bueno saber que también has intentado aprender ${otroLenguaje}.`);
+    } else if (intentoOtrosLenguajes == 2) {
+        alert("Quizás podrías intentar aprender otros lenguajes para encontrar uno que te guste más.");
+    } else {
+        alert("Respuesta no válida. Por favor, responde con el número 1 para SÍ o 2 para NO.");
+    }
+} else {
+    alert("Respuesta no válida. Por favor, responde con el número 1 para SÍ o 2 para NO.");
+}
