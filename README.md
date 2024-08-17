@@ -56,5 +56,30 @@ El programa realiza las siguientes acciones:
 
 El código utiliza las funciones `prompt` y `alert` para interactuar con el usuario y la estructura condicional `if` para evaluar las respuestas.
 
+#####################################################################################################
+
+# DESAFIO 3 Juego de Aprendizaje en Programación
+
+Este es un sencillo juego interactivo en JavaScript diseñado para guiar a los usuarios a través de un viaje de aprendizaje en programación. El juego permite a los usuarios elegir entre diferentes áreas y tecnologías para aprender, y proporciona una experiencia personalizada basada en sus elecciones.
+
+## Descripción
+
+El juego comienza pidiendo al usuario su nombre y luego le pregunta si quiere seguir el camino de Front-End o Back-End. Dependiendo de su elección, se le presentan opciones adicionales para elegir tecnologías específicas. Finalmente, el usuario puede decidir si quiere especializarse en un área o convertirse en Fullstack, y puede seguir añadiendo tecnologías que le gustaría aprender.
+
+## Estructura del Código
+
+El código está estructurado de la siguiente manera:
+
+1. **Inicio del Juego**: Se solicita el nombre del usuario y se le da la bienvenida.
+2. **Elección de Área**: El usuario elige entre Front-End y Back-End.
+3. **Elección de Tecnología**: Dependiendo del área elegida, el usuario selecciona una tecnología específica.
+4. **Especialización**: El usuario decide si quiere especializarse en el área elegida o convertirse en Fullstack.
+5. **Añadir Tecnologías**: El usuario puede seguir añadiendo tecnologías que le gustaría aprender.
+6. **Final del Juego**: Se agradece al usuario por participar y se le desea suerte en su camino de aprendizaje.
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, por favor, abre un issue o envía un pull request. ¡Todas las contribuciones son bienvenidas!
+
 
 
