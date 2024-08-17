@@ -36,7 +36,7 @@ Incluye este código en un archivo HTML y ábrelo en un navegador para ver los r
 
 Este código es útil para entender las peculiaridades de la comparación en JavaScript y la importancia de considerar tanto el valor como el tipo al comparar variables.
 
-###################################################################################################################################################################
+####################################################################################################
 
 # DESAFIO 2 Programa Interactivo en JavaScript
 
@@ -84,4 +84,10 @@ if (respuesta == 1) {
     }
 } else {
     alert("Respuesta no válida. Por favor, responde con el número 1 para SÍ o 2 para NO.");
-}
+}```
+
+
+
+
+
+
