@@ -1,0 +1,41 @@
+# Juego de Adivinar el Número
+
+## Descripción
+Este es un simple juego de consola en JavaScript donde el jugador debe adivinar un número aleatorio entre 0 y 10. El juego ofrece pistas y permite múltiples intentos, brindando una experiencia interactiva y divertida.
+
+## Características
+- Generación de números aleatorios entre 0 y 10.
+- Límite de 3 intentos por ronda.
+- Pistas que indican si el número a adivinar es mayor o menor.
+- Personalización con el nombre del jugador.
+- Opción de jugar múltiples rondas.
+- Mensajes personalizados basados en el progreso del jugador.
+
+## Cómo jugar
+1. El juego te pedirá tu nombre al inicio.
+2. Se generará un número aleatorio entre 0 y 10.
+3. Tienes 3 intentos para adivinar el número.
+4. Después de cada intento, recibirás una pista si el número es mayor o menor.
+5. Si adivinas el número, ganarás la ronda.
+6. Si no adivinas después de 3 intentos, perderás la ronda.
+7. Al final de cada ronda, puedes elegir si quieres jugar de nuevo.
+
+## Estructura del código
+- `generarNumeroAleatorio(min, max)`: Genera un número aleatorio.
+- `pedirNombre()`: Solicita y almacena el nombre del jugador.
+- `jugarAdivinaElNumero()`: Función principal que maneja la lógica del juego.
+- `preguntarJugarDeNuevo()`: Pregunta al jugador si desea jugar otra ronda.
+- `iniciarJuego()`: Inicia y controla el flujo del juego.
+
+## Cómo ejecutar
+1. Copia todo el código en un archivo JavaScript (por ejemplo, `juego.js`).
+2. Ejecuta el archivo en un entorno que soporte JavaScript (como Node.js) o inclúyelo en una página HTML y ábrela en un navegador web.
+
+## Personalización
+Puedes modificar fácilmente algunos parámetros del juego:
+- Cambia `MIN` y `MAX` en `jugarAdivinaElNumero()` para alterar el rango de números.
+- Modifica `INTENTOS_MAXIMOS` para cambiar el número de intentos permitidos.
+
+## Notas
+- El juego utiliza `alert()` y `prompt()` para la interacción, lo que lo hace ideal para entornos de navegador.
+- El nombre del jugador se guarda durante toda la sesión de juego.
