@@ -81,6 +81,7 @@ El código está estructurado de la siguiente manera:
 
 Si deseas contribuir a este proyecto, por favor, abre un issue o envía un pull request. ¡Todas las contribuciones son bienvenidas!
 
+######################################################################################################
 
 # DESAFIO 4 Juego de Adivinar el Número
 
