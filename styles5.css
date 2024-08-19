@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente a Arial o sans-serif como respaldo */
+    max-width: 600px; /* Limita el ancho máximo del cuerpo a 600px */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Añade un relleno de 20px alrededor del contenido */
+    background-color: #b7d1e8; /* Establece el color de fondo a un tono azul claro */
+    color: #333; /* Establece el color del texto a un gris oscuro */
+}
+h1 {
+    text-align: center; /* Centra el texto del encabezado */
+    color: #c30f2a; /* Establece el color del texto del encabezado a un tono naranja */
+}
+#lista {
+    margin-top: 20px; /* Añade un margen superior de 20px al contenedor de la lista */
+}
+.categoria {
+    margin-bottom: 10px; /* Añade un margen inferior de 10px a cada categoría */
+    background-color: #e6e6fa; /* Establece el color de fondo a un tono lavanda claro */
+    padding: 10px; /* Añade un relleno de 10px alrededor del contenido de la categoría */
+    border-radius: 5px; /* Redondea las esquinas del contenedor de la categoría */
+}
+.categoria-titulo {
+    font-weight: bold; /* Establece el texto del título de la categoría en negrita */
+    color: #4682b4; /* Establece el color del texto del título a un tono azul */
+}
+button {
+    background-color: #0066ff; /* Establece el color de fondo del botón a un tono naranja */
+    color: white; /* Establece el color del texto del botón a blanco */
+    border: none; /* Elimina cualquier borde del botón */
+    padding: 10px 20px; /* Añade un relleno de 10px en la parte superior e inferior y 20px en los lados */
+    border-radius: 5px; /* Redondea las esquinas del botón */
+    cursor: pointer; /* Cambia el cursor a un puntero cuando se pasa sobre el botón */
+}
+button:hover {
+    background-color: #ff6347; /* Cambia el color de fondo del botón a un tono más claro de naranja cuando se pasa sobre él */
+}
+input[type="text"], select {
+    padding: 10px; /* Añade un relleno de 10px dentro del campo de texto y del selector */
+    border: 1px solid #ccc; /* Establece un borde de 1px de color gris claro */
+    border-radius: 5px; /* Redondea las esquinas del campo de texto y del selector */
+    width: calc(100% - 22px); /* Establece el ancho al 100% menos 22px para compensar el relleno y el borde */
+    margin-bottom: 10px; /* Añade un margen inferior de 10px */
+}

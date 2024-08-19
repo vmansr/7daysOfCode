@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Define el tipo de documento y el idioma como español -->
+<head>
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista para que sea compatible con dispositivos móviles -->
+    <title>Lista de Compras</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="styles5.css"> <!-- Enlace al archivo de estilos CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> <!-- Enlace a la fuente Roboto desde Google Fonts -->
+</head>
+<body>
+    <h1>Lista de Compras</h1> <!-- Encabezado principal de la página -->
+    <div id="preguntas"> <!-- Contenedor para las preguntas -->
+        <p>¿Deseas agregar un alimento a tu lista de compras? (sí/no)</p> <!-- Pregunta al usuario -->
+        <input type="text" id="respuesta" onkeypress="if(event.key === 'Enter') procesarRespuesta()"/> <!-- Campo de texto para la respuesta del usuario, con evento para procesar al presionar Enter -->
+        <button onclick="procesarRespuesta()">Enviar</button> <!-- Botón para enviar la respuesta -->
+    </div>
+    <div id="lista"></div> <!-- Contenedor para la lista de compras -->
+
+    <script src="desafio5.js"></script> <!-- Enlace al archivo JavaScript -->
+    
+</body>
+</html>
