@@ -36,7 +36,7 @@ Incluye este código en un archivo HTML y ábrelo en un navegador para ver los r
 
 Este código es útil para entender las peculiaridades de la comparación en JavaScript y la importancia de considerar tanto el valor como el tipo al comparar variables.
 
-####################################################################################################
+######################################################################################################
 
 # DESAFIO 2 Programa Interactivo en JavaScript
 
@@ -56,7 +56,7 @@ El programa realiza las siguientes acciones:
 
 El código utiliza las funciones `prompt` y `alert` para interactuar con el usuario y la estructura condicional `if` para evaluar las respuestas.
 
-#####################################################################################################
+######################################################################################################
 
 # DESAFIO 3 Juego de Aprendizaje en Programación
 
@@ -124,6 +124,53 @@ Puedes modificar fácilmente algunos parámetros del juego:
 ## Notas
 - El juego utiliza `alert()` y `prompt()` para la interacción, lo que lo hace ideal para entornos de navegador.
 - El nombre del jugador se guarda durante toda la sesión de juego.
+
+######################################################################################################
+
+# DESAFIO 5 Lista de Compras Interactiva
+
+## Descripción
+Este proyecto es una aplicación web interactiva que permite a los usuarios crear una lista de compras organizada por categorías. Los usuarios pueden agregar alimentos a diferentes categorías y ver una lista final organizada de sus compras.
+
+## Características
+- Interfaz de usuario simple e intuitiva
+- Agregar alimentos a la lista de compras
+- Categorizar alimentos (Frutas, Lácteos, Congelados, Dulces, Otros)
+- Visualizar la lista de compras organizada por categorías
+
+## Tecnologías Utilizadas
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+## Cómo Usar
+1. Abre el archivo `index.html` en un navegador web moderno.
+2. Responde "sí" o "no" a la pregunta inicial para agregar alimentos.
+3. Si respondes "sí":
+   - Ingresa el nombre del alimento.
+   - Selecciona la categoría del alimento.
+   - Repite el proceso para agregar más alimentos.
+4. Si respondes "no", se mostrará la lista de compras organizada.
+
+## Estructura del Proyecto
+- `index.html`: Contiene la estructura HTML, los estilos CSS y el script JavaScript.
+
+## Funciones Principales
+- `procesarRespuesta()`: Maneja la respuesta inicial del usuario.
+- `preguntarAlimento()`: Solicita el nombre del alimento al usuario.
+- `procesarAlimento()`: Procesa el alimento ingresado.
+- `preguntarCategoria()`: Muestra opciones de categorías para el alimento.
+- `agregarAlimento()`: Añade el alimento a la categoría seleccionada.
+- `mostrarLista()`: Muestra la lista final de compras organizada.
+- `limpiarLista()`: No solo vaciará la lista de compras, sino que también reiniciará el programa.
+
+## Personalización
+Puedes modificar las categorías predefinidas editando el objeto `listaCompras` en el script JavaScript.
+
+## Mejoras Futuras
+- Agregar persistencia de datos (almacenamiento local)
+- Implementar funcionalidad para eliminar o editar elementos
+- Mejorar el diseño responsive para dispositivos móviles
 
 
 
