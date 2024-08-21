@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="styles6.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista de Compras</h1>
+            <button id="clearListButton" onclick="reiniciarPrograma()">Reiniciar Programa</button>
+        </header>
+
+        <div class="content">
+            <div id="preguntas">
+                <p>¿Deseas agregar o eliminar un alimento de tu lista de compras?</p>
+                <div class="actions">
+                    <input type="text" id="respuesta" placeholder="Responde con 'sí' o 'no'" onkeypress="if(event.key === 'Enter') procesarRespuesta()">
+                    <button onclick="procesarRespuesta()">Enviar</button>
+                </div>
+            </div>
+            <div id="lista"></div>
+            <div id="listaAcciones" style="display: none;">
+                <button onclick="agregarLista()">Agregar Lista</button>
+                <button onclick="eliminarLista()">Eliminar Lista</button>
+            </div>
+            <div id="modificarLista" style="display: none;">
+                <button onclick="preguntarAccion()">Modificar Lista</button>
+                <button onclick="reiniciarPrograma()">Reiniciar Programa</button>
+            </div>
+            <div id="finalizarLista" style="display: none;">
+                <button onclick="limpiarLista()">Limpiar Lista</button>
+            </div>
+        </div>
+    </div>
+    <script src="desafio6.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #bfbcd4fb;
+}
+
+.container {
+    background-color: rgb(165, 157, 200);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#preguntas {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#preguntas p {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#preguntas input, #preguntas button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#preguntas button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#preguntas button:hover {
+    background-color: #45a049;
+}
+
+.categoria {
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categoria-titulo {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#clearListButton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clearListButton:hover {
+    background-color: #c0392b;
+}
+
+#listaAcciones {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#listaAcciones button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#listaAcciones button:hover {
+    background-color: #45a049;
+}
+
+#listaAcciones button:nth-child(2) {
+    background-color: #e74c3c;
+}
+
+#listaAcciones button:nth-child(2):hover {
+    background-color: #c0392b;
+}
+
+#modificarLista {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#modificarLista button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#modificarLista button:hover {
+    background-color: #45a049;
+}
+
+#modificarLista button:nth-child(2) {
+    background-color: #e74c3c;
+}
+
+#modificarLista button:nth-child(2):hover {
+    background-color: #c0392b;
+}
+
+.categoria-seleccion {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* El resto del código CSS se mantiene igual */
+
+#clearListButton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clearListButton:hover {
+    background-color: #c0392b;
+}
+
+#listaAcciones button:nth-child(2) {
+    background-color: #e74c3c;
+}
+
+#listaAcciones button:nth-child(2):hover {
+    background-color: #c0392b;
+}
+
+#modificarLista button:nth-child(2) {
+    background-color: #e74c3c;
+}
+
+#modificarLista button:nth-child(2):hover {
+    background-color: #c0392b;
+}
+
+/* El resto del código CSS se mantiene igual */
+
+#finalizarLista {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#finalizarLista button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#finalizarLista button:hover {
+    background-color: #45a049;
+}
