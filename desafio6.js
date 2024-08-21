@@ -190,20 +190,18 @@ function limpiarLista() {
     // Asegúrate de que el contenedor de preguntas esté visible
     document.getElementById('preguntas').style.display = 'block';
 }
-// Nueva función para agregar la lista a la página
+// Función para agregar la lista a la página
 function agregarLista() {
     mostrarLista();
     document.getElementById('listaAcciones').style.display = 'none';
 }
-// Nueva función para eliminar la lista de la página
+// Función para eliminar la lista de la página
 function eliminarLista() {
     document.getElementById('lista').innerHTML = '';
     document.getElementById('listaAcciones').style.display = 'none';
 }
 
-
-// Función actualizada para mostrar la lista definitiva
-// Función actualizada para mostrar la lista definitiva
+// Función para mostrar la lista definitiva
 function mostrarLista() {
     let resultado = '<h2>Lista de compras:</h2>';
     for (const [categoria, alimentos] of Object.entries(listaCompras)) {
@@ -222,7 +220,7 @@ function mostrarLista() {
     guardarLista(); // Guardar la lista después de mostrarla
 }
 
-// Función actualizada para mostrar la confirmación de eliminación
+// Función para mostrar la confirmación de eliminación
 function mostrarConfirmacionEliminacion(elemento) {
     document.getElementById('preguntas').innerHTML = `
         <p>¡El elemento "${elemento}" ha sido eliminado de la lista de compras!</p>
@@ -230,7 +228,7 @@ function mostrarConfirmacionEliminacion(elemento) {
     `;
 }
 
-// Función actualizada para mostrar el mensaje cuando un elemento no se encuentra
+// Función para mostrar el mensaje cuando un elemento no se encuentra
 function mostrarMensajeNoEncontrado(elemento) {
     document.getElementById('preguntas').innerHTML = `
         <p>¡No fue posible encontrar el elemento "${elemento}" en la lista!</p>
