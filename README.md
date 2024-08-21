@@ -174,7 +174,7 @@ Puedes modificar las categorías predefinidas editando el objeto `listaCompras` 
   
 #######################################################################################################
 
-# DESAFIO Lista de Compras (adicionar
+# DESAFIO 6 Lista de Compras (adicionar y eliminar de lista)
 
 ## Descripción
 Esta es una aplicación web simple que te permite mantener una lista de compras organizada por categorías. Puedes agregar o eliminar elementos de la lista, y la aplicación guarda tus cambios en el localStorage del navegador.
