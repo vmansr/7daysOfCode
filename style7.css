@@ -1,0 +1,64 @@
+body {
+    background-color: hsl(231, 36%, 85%);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(21, 63, 90);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.685);
+}
+.calculator input {
+    grid-column: span 4;
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid hsl(221, 81%, 33%);
+    border-radius: 5px;
+    text-align: right;
+    background-color: hsl(0, 0%, 88%);
+}
+.calculator button {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.calculator button:hover {
+    opacity: 0.9;
+}
+.calculator button:nth-child(2) {
+    background-color: hsl(0, 70%, 4%);
+    color: #9b1010;
+}
+.calculator button:nth-child(3),
+.calculator button:nth-child(4),
+.calculator button:nth-child(5),
+.calculator button:nth-child(6),
+.calculator button:nth-child(7),
+.calculator button:nth-child(8),
+.calculator button:nth-child(9),
+.calculator button:nth-child(10),
+.calculator button:nth-child(11),
+.calculator button:nth-child(12),
+.calculator button:nth-child(13),
+.calculator button:nth-child(14),
+.calculator button:nth-child(15),
+.calculator button:nth-child(16) {
+    background-color: hsl(0, 0%, 3%);
+    color: hwb(0 89% 9%);
+}
+.calculator button:nth-child(17),
+.calculator button:nth-child(18),
+.calculator button:nth-child(19),
+.calculator button:nth-child(20),
+.calculator button:nth-child(21) {
+    background-color: hsl(245, 86%, 5%);
+    color: hwb(0 89% 9%);
+}
