@@ -252,7 +252,7 @@ Para personalizar la calculadora:
 3. Expanda las funciones en JavaScript para añadir nuevas operaciones.
 
 ## Notas
-- La calculadora utiliza `toFixed(8)` para limitar la precisión decimal y evitar problemas de representación de punto flotante.
+- La calculadora utiliza `toFixed(2)` ó `toFixed(8)` para limitar la precisión decimal y evitar problemas de representación de punto flotante.
 - Se han implementado comprobaciones de errores para operaciones inválidas.
 
 ## Contribuciones
