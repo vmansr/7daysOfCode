@@ -207,3 +207,53 @@ Un navegador web moderno, como Google Chrome, Mozilla Firefox o Microsoft Edge.
 
 ## Contribución
 Si encuentras algún problema o tienes sugerencias de mejora, no dudes en abrir un issue o enviar un pull request en el repositorio de GitHub.
+
+#######################################################################################################
+
+# DESAFIO 7 Calculadora JavaScript
+
+## Descripción
+Esta es una calculadora simple implementada en JavaScript. Ofrece funcionalidades básicas de cálculo, incluyendo suma, resta, multiplicación, división, porcentaje y raíz cuadrada. La calculadora cuenta con una interfaz de usuario que puede ser controlada tanto por clics como por entradas de teclado.
+
+## Características
+- Operaciones básicas: suma (+), resta (-), multiplicación (*), división (/)
+- Funciones adicionales:
+  - Porcentaje (%)
+  - Raíz cuadrada (√)
+  - Cambio de signo (+/-)
+- Borrado completo (AC)
+- Manejo de errores (división por cero, raíz cuadrada de números negativos)
+- Interfaz responsive que funciona con clics y entradas de teclado
+
+## Uso
+1. Abra el archivo HTML en su navegador para ver la calculadora.
+2. Use los botones en pantalla o su teclado para ingresar números y realizar operaciones.
+3. Para usar el teclado:
+   - Números y operadores básicos funcionan como se espera
+   - 'Enter' para calcular el resultado (=)
+   - 'Escape' para borrar (AC)
+   - 'r' o 'R' para raíz cuadrada
+   - '%' para porcentaje
+
+## Estructura del Código
+- El código está contenido en un único archivo JavaScript.
+- Se utiliza el evento 'DOMContentLoaded' para asegurar que el DOM esté completamente cargado antes de ejecutar el script.
+- Las funciones principales incluyen:
+  - `clearDisplay()`: Limpia la pantalla y reinicia las variables.
+  - `appendToDisplay(value)`: Añade un valor a la pantalla.
+  - `performOperation(op, a, b)`: Realiza la operación matemática.
+  - `calculateResult()`: Calcula y muestra el resultado final.
+  - Funciones específicas para cada operación especial (raíz cuadrada, porcentaje, etc.)
+
+## Personalización
+Para personalizar la calculadora:
+1. Modifique el HTML para cambiar la apariencia de los botones.
+2. Ajuste los estilos CSS para alterar el diseño visual.
+3. Expanda las funciones en JavaScript para añadir nuevas operaciones.
+
+## Notas
+- La calculadora utiliza `toFixed(8)` para limitar la precisión decimal y evitar problemas de representación de punto flotante.
+- Se han implementado comprobaciones de errores para operaciones inválidas.
+
+## Contribuciones
+Las contribuciones son bienvenidas. Por favor, abra un issue para discutir cambios mayores antes de enviar un pull request.
